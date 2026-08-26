@@ -1,4 +1,4 @@
 Repository name: hwl-informatica
 Description: Sitio web y sistema de contacto para HWL Informática
-Public/Private: Public (o Private, como prefieras)
+Public/Private: Public
 Initialize this repository with
