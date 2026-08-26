@@ -1,0 +1,16 @@
+# Ver estado
+git status
+
+# Subir cambios
+git add .
+git commit -m "mensaje"
+git push origin main
+
+# Traer cambios
+git pull origin main
+
+# Resolver conflictos (si aparecen)
+git checkout --ours archivo  # tu versión
+git checkout --theirs archivo  # versión remota
+git add archivo
+git commit -m "resolver conflicto"
