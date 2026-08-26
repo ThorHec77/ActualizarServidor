@@ -2,7 +2,7 @@
 // webhookGit.php - Para GitHub Webhook
 
 // Configuración
-$secret = "TU_CLAVE_SECRETA_123"; // ¡Cámbiala!
+$secret = "********"; // ¡Cámbiala!
 
 // Archivo de log
 $log_file = '/var/www/html/webhook.log';
