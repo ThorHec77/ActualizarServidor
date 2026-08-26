@@ -1,4 +1,18 @@
 Repository name: hwl-informatica
 Description: Sitio web y sistema de contacto para HWL Informática
-Public/Private: Public (o Private, como prefieras)
-Initialize this repository with: NO marques nada (lo haremos local)
+Public/Private: Public 
+Initialize this repository with
+
+
+configurar con cautela para que quede bien el diagrama de micrservicios
+# 1. Clonar
+cd /var/www
+git clone https://github.com/ThorHec77/hwl-informatica.git
+
+# 2. Entrar y configurar
+cd hwl-informatica
+cp .env.example .env  # si existe
+nano .env
+
+# 3. Levantar
+docker compose up -d
